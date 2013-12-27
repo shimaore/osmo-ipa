@@ -21,7 +21,6 @@ When the far-end (i.e. BTS) disconnects,
 
         @connection.on 'end', =>
           console.error 'Socket disconnected'
-          @end()
 
 flush any leftover frame.
 
