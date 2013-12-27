@@ -5,8 +5,8 @@
 
     describe 'When using IPA', ->
       ipaProtocol = require '..'
-      ipaccessProtocol = (require 'ipaccess').protocol
-      ipaccessHandler = (require 'ipaccess').handler
+      ipaccessProtocol = (require 'osmo-ipaccess').protocol
+      ipaccessHandler = (require 'osmo-ipaccess').handler
       describe 'the protocol handler', ->
         it 'should respond with pong to a ping', (done) ->
           conn = new EventEmitter
