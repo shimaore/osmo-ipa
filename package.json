@@ -1,6 +1,6 @@
 {
   "name": "osmo-ipa",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An IPA package for the BSC-MSC interface",
   "main": "index.js",
   "scripts": {
